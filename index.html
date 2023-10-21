@@ -1,209 +1,262 @@
 <!DOCTYPE HTML>
-<!--
-  Hyperspace by HTML5 UP
-  html5up.net | @ajlkn
-  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-  <head>
-    <title>Hyperspace by HTML5 UP</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-  </head>
-  <body class="is-preload">
+<html lang="en">
 
-    <!-- Sidebar -->
-      <section id="sidebar">
+<head>
+  <title>Kevin O'Donnell/scealiontach</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
+</head>
+
+<body class="is-preload">
+
+  <!-- Sidebar -->
+  <section id="sidebar">
+    <div class="inner">
+      <nav>
+        <ul>
+          <li><a href="#intro">Me</a></li>
+          <li><a href="#one">My Work</a></li>
+          <li><a href="#two">Interesting Things</a></li>
+          <li><a href="#three">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Intro -->
+    <section id="intro" class="wrapper style1 fullscreen fade-up">
+      <div class="inner">
+        <h1>Kevin O'Donnell</h1>
+        <p>I love technology, both for its promise and occasionally for its beauty. More importantly I
+          love building things.</p>
+        <p>My handle "scealiontach" is from the Irish <i>scéal iontach</i>, which means <i>a great story</i>.
+          I speak a little bit of Irish, but just don't ask me to direct a light opera.
+        </p>
+        <!-- <ul class="actions">
+          <li><a href="#one" class="button scrolly">Learn more</a></li>
+        </ul> -->
+      </div>
+    </section>
+
+    <!-- One -->
+    <!-- <section id="one" class="wrapper style2 spotlights"> -->
+    <section id="one" class="wrapper style2 fade-up">
         <div class="inner">
-          <nav>
-            <ul>
-              <li><a href="#intro">Welcome</a></li>
-              <li><a href="#one">My Projects of Interest</a></li>
-              <li><a href="#two">Projects That Interest Me</a></li>
-              <li><a href="#three">Get in touch</a></li>
-            </ul>
-          </nav>
+            <h2>My Work</h2>
+            <p>Traditionally, I build software for infrastructure, but for me that also extends to the more
+              abstract aspects of data management, event driven architectures, and system architecture. I
+              have a recurring interest in graph oriented data, declarative systems, and the management of
+              data, and complex distributed systems.
+            </p>
+            <p>Quite a lot of my work is closed source and private, but the last few years I have been working
+              in the open, so here is a selection of that work.
+            </p>
+            <div class="features">
+              <section>
+                <span class="icon solid major brands fa-github"></span>
+                <h3><a href="https://github.com/chronicleworks/chronicle">Chronicle</a></h3>
+                <p>Chronicle is an open-source, blockchain-backed, domain-agnostic provenance platform</p>
+                <p>With BTP, I kicked off Chronicle as a way to bring together the immutable properties of blockchain with the
+                  best representation of provenance data I know of: W3C's&nbsp;PROV-O</nbr></p>
+              </section>
+              <section>
+                <span class="icon solid major brands fa-github"></span>
+                <h3><a href="https://github.com/blockchaintp/daml-on-sawtooth">daml-on-sawtooth</a></h3>
+                <p>daml-on-sawtooth is an integration of the DAML smart contract runtime engine, created and
+                  open sourced by Digital Asset, with Hyperledger Sawtooth blockchain as the backing DLT.</p>
+              </section>
+              <section>
+                <span class="icon solid major brands fa-github"></span>
+                <h3><a href="https://github.com/blockchaintp/daml-on-besu">daml-on-besu</a></h3>
+                <p>daml-on-besu is functionally the same as daml-on-sawtooth but implemented on top of Besu,
+                  the Java based Ethereum client.
+                </p>
+              </section>
+              <section>
+                <span class="icon solid major brands fa-github"></span>
+                <h3><a href="https://github.com/blockchaintp/shell-scripts">shell-scripts</a></h3>
+                <p>shell-scripts is a collection of various useful scripts and a broad framework of script
+                  libraries which I developed for BTP and which is now open-source.  Use at your own risk, but
+                  there is some good stuff in there.
+                </p>
+              </section>
+
+              <!-- <section>
+              <section>
+                <span class="icon solid major fa-lock"></span>
+                <h3>Aliquam sed nullam</h3>
+                <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies
+                  erat dapibus.</p>
+              </section>
+                <span class="icon solid major fa-cog"></span>
+                <h3>Sed erat ullam corper</h3>
+                <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies
+                  erat dapibus.</p>
+              </section>
+              <section>
+                <span class="icon solid major fa-desktop"></span>
+                <h3>Veroeros quis lorem</h3>
+                <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies
+                  erat dapibus.</p>
+              </section>
+              <section>
+                <span class="icon solid major fa-link"></span>
+                <h3>Urna quis bibendum</h3>
+                <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies
+                  erat dapibus.</p>
+              </section>
+              <section>
+                <span class="icon major fa-gem"></span>
+                <h3>Aliquam urna dapibus</h3>
+                <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies
+                  erat dapibus.</p>
+              </section>
+            </div>
+            <ul class="actions">
+              <li><a href="generic.html" class="button">Learn more</a></li>
+            </ul> -->
         </div>
       </section>
-
-    <!-- Wrapper -->
-      <div id="wrapper">
-
-        <!-- Intro -->
-          <section id="intro" class="wrapper style1 fullscreen fade-up">
-            <div class="inner">
-              <h1>Kevin O'Donnell (<a href="https://github.com/scealiontach">scealiontach</a>)</h1>
-              <p>I love technology, both for its promise and occasionally for its beauty. More importantly I
-                love building things.</p>
-              <ul class="actions">
-                <li><a href="#one" class="button scrolly">Learn more</a></li>
-              </ul>
-            </div>
-          </section>
-
-        <!-- One -->
-          <section id="one" class="wrapper style2 spotlights">
-            <section>
-              <a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
-              <div class="content">
-                <div class="inner">
-                  <h2>Sed ipsum dolor</h2>
-                  <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-                  <ul class="actions">
-                    <li><a href="generic.html" class="button">Learn more</a></li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-            <section>
-              <a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-              <div class="content">
-                <div class="inner">
-                  <h2>Feugiat consequat</h2>
-                  <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-                  <ul class="actions">
-                    <li><a href="generic.html" class="button">Learn more</a></li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-            <section>
-              <a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-              <div class="content">
-                <div class="inner">
-                  <h2>Ultricies aliquam</h2>
-                  <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-                  <ul class="actions">
-                    <li><a href="generic.html" class="button">Learn more</a></li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-          </section>
-
-        <!-- Two -->
-          <section id="two" class="wrapper style3 fade-up">
-            <div class="inner">
-              <h2>What we do</h2>
-              <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-              <div class="features">
-                <section>
-                  <span class="icon solid major fa-code"></span>
-                  <h3>Lorem ipsum amet</h3>
-                  <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-                </section>
-                <section>
-                  <span class="icon solid major fa-lock"></span>
-                  <h3>Aliquam sed nullam</h3>
-                  <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-                </section>
-                <section>
-                  <span class="icon solid major fa-cog"></span>
-                  <h3>Sed erat ullam corper</h3>
-                  <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-                </section>
-                <section>
-                  <span class="icon solid major fa-desktop"></span>
-                  <h3>Veroeros quis lorem</h3>
-                  <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-                </section>
-                <section>
-                  <span class="icon solid major fa-link"></span>
-                  <h3>Urna quis bibendum</h3>
-                  <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-                </section>
-                <section>
-                  <span class="icon major fa-gem"></span>
-                  <h3>Aliquam urna dapibus</h3>
-                  <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-                </section>
-              </div>
-              <ul class="actions">
-                <li><a href="generic.html" class="button">Learn more</a></li>
-              </ul>
-            </div>
-          </section>
-
-        <!-- Three -->
-          <section id="three" class="wrapper style1 fade-up">
-            <div class="inner">
-              <h2>Get in touch</h2>
-              <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-              <div class="split style1">
-                <section>
-                  <form method="post" action="#">
-                    <div class="fields">
-                      <div class="field half">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" />
-                      </div>
-                      <div class="field half">
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email" />
-                      </div>
-                      <div class="field">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="5"></textarea>
-                      </div>
-                    </div>
-                    <ul class="actions">
-                      <li><a href="" class="button submit">Send Message</a></li>
-                    </ul>
-                  </form>
-                </section>
-                <section>
-                  <ul class="contact">
-                    <li>
-                      <h3>Address</h3>
-                      <span>12345 Somewhere Road #654<br />
-                      Nashville, TN 00000-0000<br />
-                      USA</span>
-                    </li>
-                    <li>
-                      <h3>Email</h3>
-                      <a href="#">user@untitled.tld</a>
-                    </li>
-                    <li>
-                      <h3>Phone</h3>
-                      <span>(000) 000-0000</span>
-                    </li>
-                    <li>
-                      <h3>Social</h3>
-                      <ul class="icons">
-                        <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                        <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                        <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-            </div>
-          </section>
-
-      </div>
-
-    <!-- Footer -->
-      <footer id="footer" class="wrapper style1-alt">
-        <div class="inner">
-          <ul class="menu">
-            <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-          </ul>
+      <!-- <section>
+        <a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+        <div class="content">
+          <div class="inner">
+            <h2>Feugiat consequat</h2>
+            <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada
+              quis. Aliquam dapibus.</p>
+            <ul class="actions">
+              <li><a href="generic.html" class="button">Learn more</a></li>
+            </ul>
+          </div>
         </div>
-      </footer>
+      </section> -->
+      <!-- <section>
+        <a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+        <div class="content">
+          <div class="inner">
+            <h2>Ultricies aliquam</h2>
+            <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada
+              quis. Aliquam dapibus.</p>
+            <ul class="actions">
+              <li><a href="generic.html" class="button">Learn more</a></li>
+            </ul>
+          </div>
+        </div>
+      </section> -->
+    </section>
 
-    <!-- Scripts -->
-      <script src="assets/js/jquery.min.js"></script>
-      <script src="assets/js/jquery.scrollex.min.js"></script>
-      <script src="assets/js/jquery.scrolly.min.js"></script>
-      <script src="assets/js/browser.min.js"></script>
-      <script src="assets/js/breakpoints.min.js"></script>
-      <script src="assets/js/util.js"></script>
-      <script src="assets/js/main.js"></script>
+    <!-- Two -->
+    <section id="two" class="wrapper style3 fade-up">
+      <div class="inner">
+        <h2>Interesting Things</h2>
+        <p>There are too many interesting things to list all of them but here are a some of my current favorites.</p>
+        <div class="features">
+          <section>
+            <span class="icon solid major brands fa-github"></span>
+            <h3><a href="https://github.com/NationalSecurityAgency/emissary">NationalSecurityAgency/emissary</a></h3>
+            <p>Regardless of how one may feel about these folks, they know what they are doing. Emissary is a
+              pretty fascinating project which reminds me a bit of WAVE-R, at least in intent.
+            </p>
+          </section>
+          <section>
+            <span class="icon solid major fa-gem"></span>
+            <h3><a href="https://solidproject.org/">Solid</a></h3>
+            <p>Tim Berners-Lee's vision of returning data control to the hands of those who own it.</p>
+          </section>
+          <section>
+            <span class="icon solid major fa-cog"></span>
+            <h3><a href="https://sovrin.org">Sovrin</h3>
+            <p>Sovrin is "a public service utility enabling self-sovereign identity on the Internet. The
+              Sovrin Network is decentralized, meaning individuals can collect, hold, and choose which
+              identity credentials —such as a driver's license or employment credential—without relying on
+              individual siloed databases that manage the access to those credentials."</p>
+          </section>
+          <section>
+            <span class="icon solid major brands fa-github"></span>
+            <h3><a href="https://github.com/bitburner-official/bitburner-src">Bitburner</a></h3>
+            <p>So, one day I had to sharpen up my typescript/javascript skills, so that I could give more
+              concrete direction and assistance to my UI developers.  I couldn't bear the though of plowing
+              through another book designed for web-devlopment types, particularly when what we were up to was
+              backend API development.  Instead, I found Bitburner.
+            </p>
+          </section>
+          <!-- <section>
+            <span class="icon solid major fa-desktop"></span>
+            <h3>Veroeros quis lorem</h3>
+            <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat
+              dapibus.</p>
+          </section>
+          <section>
+            <span class="icon solid major fa-link"></span>
+            <h3>Urna quis bibendum</h3>
+            <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat
+              dapibus.</p>
+          </section>
+          <section>
+            <span class="icon major fa-gem"></span>
+            <h3>Aliquam urna dapibus</h3>
+            <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat
+              dapibus.</p>
+          </section> -->
+        </div>
+        <!-- <ul class="actions">
+          <li><a href="generic.html" class="button">Learn more</a></li>
+        </ul> -->
+      </div>
+    </section>
 
-  </body>
+    <!-- Three -->
+    <section id="three" class="wrapper style4 fade-up">
+      <div class="inner">
+        <h2>Where you can find me</h2>
+        <p>Don't get excited. I'm not a big social media type.</p>
+            <ul class="contact">
+              <li>
+                <h3>Social</h3>
+                <ul class="icons">
+                  <li><a href="https://twitter.com/kevin_odonnell" class="icon brands fa-twitter"><span
+                        class="label">Twitter</span></a></li>
+                  <!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+                  <li><a href="https://github.com/scealiontach" class="icon brands fa-github"><span
+                        class="label">GitHub</span></a></li>
+                  <li><a href="https://www.instagram.com/kodonnel921/" class="icon brands fa-instagram"><span
+                        class="label">Instagram</span></a></li>
+                  <li><a href="https://www.linkedin.com/in/kodonnel-33311/" class="icon brands fa-linkedin-in"><span
+                        class="label">LinkedIn</span></a></li>
+                </ul>
+              </li>
+            </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer" class="wrapper style1-alt">
+    <div class="inner">
+      <ul class="menu">
+        <li>&copy; Kevin O'Donnell. All rights reserved.</li>
+        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
