@@ -21,6 +21,7 @@
           <li><a href="#intro">Me</a></li>
           <li><a href="#one">My Work</a></li>
           <li><a href="#two">Interesting Things</a></li>
+          <li><a href="#ai-musing">AI Musings &amp; Tinkering</a></li>
           <li><a href="#three">Contact</a></li>
         </ul>
       </nav>
@@ -48,47 +49,49 @@
     <!-- One -->
     <!-- <section id="one" class="wrapper style2 spotlights"> -->
     <section id="one" class="wrapper style2 fade-up">
-        <div class="inner">
-            <h2>My Work</h2>
-            <p>Traditionally, I build software for infrastructure, but for me that also extends to the more
-              abstract aspects of data management, event driven architectures, and system architecture. I
-              have a recurring interest in graph oriented data, declarative systems, and the management of
-              data, and complex distributed systems.
+      <div class="inner">
+        <h2>My Work</h2>
+        <p>Traditionally, I build software for infrastructure, but for me that also extends to the more
+          abstract aspects of data management, event driven architectures, and system architecture. I
+          have a recurring interest in graph oriented data, declarative systems, and the management of
+          data, and complex distributed systems.
+        </p>
+        <p>Quite a lot of my work is closed source and private, but the last few years I have been working
+          in the open, so here is a selection of that work.
+        </p>
+        <div class="features">
+          <section>
+            <span class="icon solid major brands fa-github"></span>
+            <h3><a href="https://github.com/chronicleworks/chronicle">Chronicle</a></h3>
+            <p>Chronicle is an open-source, blockchain-backed, domain-agnostic provenance platform</p>
+            <p>With BTP, I kicked off Chronicle as a way to bring together the immutable properties of blockchain with
+              the
+              best representation of provenance data I know of: W3C's&nbsp;PROV-O</nbr>
             </p>
-            <p>Quite a lot of my work is closed source and private, but the last few years I have been working
-              in the open, so here is a selection of that work.
+          </section>
+          <section>
+            <span class="icon solid major brands fa-github"></span>
+            <h3><a href="https://github.com/blockchaintp/daml-on-sawtooth">daml-on-sawtooth</a></h3>
+            <p>daml-on-sawtooth is an integration of the DAML smart contract runtime engine, created and
+              open sourced by Digital Asset, with Hyperledger Sawtooth blockchain as the backing DLT.</p>
+          </section>
+          <section>
+            <span class="icon solid major brands fa-github"></span>
+            <h3><a href="https://github.com/blockchaintp/daml-on-besu">daml-on-besu</a></h3>
+            <p>daml-on-besu is functionally the same as daml-on-sawtooth but implemented on top of Besu,
+              the Java based Ethereum client.
             </p>
-            <div class="features">
-              <section>
-                <span class="icon solid major brands fa-github"></span>
-                <h3><a href="https://github.com/chronicleworks/chronicle">Chronicle</a></h3>
-                <p>Chronicle is an open-source, blockchain-backed, domain-agnostic provenance platform</p>
-                <p>With BTP, I kicked off Chronicle as a way to bring together the immutable properties of blockchain with the
-                  best representation of provenance data I know of: W3C's&nbsp;PROV-O</nbr></p>
-              </section>
-              <section>
-                <span class="icon solid major brands fa-github"></span>
-                <h3><a href="https://github.com/blockchaintp/daml-on-sawtooth">daml-on-sawtooth</a></h3>
-                <p>daml-on-sawtooth is an integration of the DAML smart contract runtime engine, created and
-                  open sourced by Digital Asset, with Hyperledger Sawtooth blockchain as the backing DLT.</p>
-              </section>
-              <section>
-                <span class="icon solid major brands fa-github"></span>
-                <h3><a href="https://github.com/blockchaintp/daml-on-besu">daml-on-besu</a></h3>
-                <p>daml-on-besu is functionally the same as daml-on-sawtooth but implemented on top of Besu,
-                  the Java based Ethereum client.
-                </p>
-              </section>
-              <section>
-                <span class="icon solid major brands fa-github"></span>
-                <h3><a href="https://github.com/blockchaintp/shell-scripts">shell-scripts</a></h3>
-                <p>shell-scripts is a collection of various useful scripts and a broad framework of script
-                  libraries which I developed for BTP and which is now open-source.  Use at your own risk, but
-                  there is some good stuff in there.
-                </p>
-              </section>
+          </section>
+          <section>
+            <span class="icon solid major brands fa-github"></span>
+            <h3><a href="https://github.com/blockchaintp/shell-scripts">shell-scripts</a></h3>
+            <p>shell-scripts is a collection of various useful scripts and a broad framework of script
+              libraries which I developed for BTP and which is now open-source. Use at your own risk, but
+              there is some good stuff in there.
+            </p>
+          </section>
 
-              <!-- <section>
+          <!-- <section>
               <section>
                 <span class="icon solid major fa-lock"></span>
                 <h3>Aliquam sed nullam</h3>
@@ -123,8 +126,8 @@
               <li><a href="generic.html" class="button">Learn more</a></li>
             </ul> -->
         </div>
-      </section>
-      <!-- <section>
+    </section>
+    <!-- <section>
         <a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
         <div class="content">
           <div class="inner">
@@ -137,7 +140,7 @@
           </div>
         </div>
       </section> -->
-      <!-- <section>
+    <!-- <section>
         <a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
         <div class="content">
           <div class="inner">
@@ -182,9 +185,9 @@
             <span class="icon solid major brands fa-github"></span>
             <h3><a href="https://github.com/bitburner-official/bitburner-src">Bitburner</a></h3>
             <p>So, one day I had to sharpen up my typescript/javascript skills, so that I could give more
-              concrete direction and assistance to my UI developers.  I couldn't bear the thought of ploughing
+              concrete direction and assistance to my UI developers. I couldn't bear the thought of ploughing
               through another book designed for web-development types, particularly when what we were up to was
-              backend API development.  Instead, I found Bitburner.
+              backend API development. Instead, I found Bitburner.
             </p>
           </section>
           <!-- <section>
@@ -212,27 +215,42 @@
       </div>
     </section>
 
+    <section id="ai-musing" class="wrapper style1 fade-up">
+      <div class="inner">
+        <h2 class="major">AI Musing &amp; Tinkering</h1>
+          <p>I've been putting together <a href="tel:+"></a> collection of reference datasets, guides, articles and
+            projects
+            tracking my tinkering with
+            various aspects of contemporary AI and Machine Learning.
+          </p>
+          <ul class="actions">
+            <li><a href="ai-musings.html" class="button">Learn more</a></li>
+          </ul>
+
+      </div>
+    </section>
+
     <!-- Three -->
     <section id="three" class="wrapper style4 fade-up">
       <div class="inner">
         <h2>Where you can find me</h2>
         <p>Don't get excited. I'm not a big social media type.</p>
-            <ul class="contact">
-              <li>
-                <h3>Social</h3>
-                <ul class="icons">
-                  <li><a href="https://twitter.com/kevin_odonnell" class="icon brands fa-twitter"><span
-                        class="label">Twitter</span></a></li>
-                  <!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-                  <li><a href="https://github.com/scealiontach" class="icon brands fa-github"><span
-                        class="label">GitHub</span></a></li>
-                  <li><a href="https://www.instagram.com/kodonnel921/" class="icon brands fa-instagram"><span
-                        class="label">Instagram</span></a></li>
-                  <li><a href="https://www.linkedin.com/in/kodonnel-33311/" class="icon brands fa-linkedin-in"><span
-                        class="label">LinkedIn</span></a></li>
-                </ul>
-              </li>
+        <ul class="contact">
+          <li>
+            <h3>Social</h3>
+            <ul class="icons">
+              <li><a href="https://twitter.com/kevin_odonnell" class="icon brands fa-twitter"><span
+                    class="label">Twitter</span></a></li>
+              <!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+              <li><a href="https://github.com/scealiontach" class="icon brands fa-github"><span
+                    class="label">GitHub</span></a></li>
+              <li><a href="https://www.instagram.com/kodonnel921/" class="icon brands fa-instagram"><span
+                    class="label">Instagram</span></a></li>
+              <li><a href="https://www.linkedin.com/in/kodonnel-33311/" class="icon brands fa-linkedin-in"><span
+                    class="label">LinkedIn</span></a></li>
             </ul>
+          </li>
+        </ul>
       </div>
     </section>
 
